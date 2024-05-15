@@ -1,0 +1,14 @@
+if(ingedrukteKnop()=='1'){
+    beweegNaarVoren(1);
+    beweegNaarAchteren(1);
+    staStil();
+  }
+
+  if(ingedrukteKnop()=='2'){
+    beweegNaarVoren();
+  }
+
+  if(gaatObjectRaken()){
+    beweegNaarAchteren(0.5);
+    staStil();
+  }
